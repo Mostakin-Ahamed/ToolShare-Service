@@ -54,7 +54,7 @@ const Login = () => {
     }
 
     return (
-        <div className="mb-48">
+        <div className="mb-[163px]">
             <div>
                 <h2 className="text-3xl my-10 text-center">Please Login!</h2>
                 <form onSubmit={handleLogin} className="w-1/2 lg:w-1/2 md:3/4 mx-auto">
@@ -69,16 +69,13 @@ const Login = () => {
                             <span className="label-text">Password</span>
                         </label>
                         <input type="password" name="password" placeholder="password" className="input input-bordered" required />
-                        <label className="label">
-                            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                        </label>
                     </div>
                     <div className="form-control mt-6">
                         <button className="btn btn-primary">Login</button>
                     </div>
                 </form>
                 <div className="flex justify-center w-full mt-6">
-                    <button onClick={handleGoogleLogIn} className="btn btn-primary">Login with google <img className="h-[25px]" src="../../public/google.svg" alt="" /> </button>
+                    <button onClick={handleGoogleLogIn} className="btn btn-primary">Login with google <img className="h-[25px]" src="/google.svg" alt="" /> </button>
                 </div>
                 <p className="text-center mt-5">Do not have an account? <Link className="text-blue-600" to="/register">Register Here! </Link></p>
             </div>

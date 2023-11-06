@@ -51,7 +51,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <img className="h-[35px] ml-3" src="../../../public/logo.svg" alt="" />
+                    <img className="h-[35px] ml-3" src="/logo.svg" alt="" />
                     <Link to="/"><a className="btn btn-ghost normal-case text-xl">ToolShare</a></Link>
 
                 </div>
@@ -101,7 +101,7 @@ const Navbar = () => {
                         </label>
                     }
                     {
-                        user ? <button onClick={handleSignOut} className="btn"> Sign Out</button> : <Link to='/login'><a className="btn">Login</a></Link>
+                        user && <button onClick={handleSignOut} className="btn"> Sign Out</button> 
                     }
 
                 </div>
