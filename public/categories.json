@@ -1,0 +1,93 @@
+ [
+      {
+        "id": 1,
+        "name": "Screwdriver Set",
+        "category": "General Tools",
+        "image": "screwdriver.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Circular Saw",
+        "category": "General Tools",
+        "image": "circular_saw.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Concrete Mixer",
+        "category": "Construction Equipment",
+        "image": "concrete_mixer.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Table Saw",
+        "category": "Woodworking Tools",
+        "image": "table_saw.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Lawn Mower",
+        "category": "Gardening and Landscaping",
+        "image": "lawn_mower.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Car Jack",
+        "category": "Automotive Tools",
+        "image": "car_jack.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Soldering Iron Kit",
+        "category": "Electronics and DIY",
+        "image": "soldering_kit.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Paint Sprayer",
+        "category": "Home Improvement",
+        "image": "paint_sprayer.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Camping Tent",
+        "category": "Outdoor and Recreational",
+        "image": "camping_tent.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Bicycle Repair Tools",
+        "category": "Outdoor and Recreational",
+        "image": "bike_repair_tools.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Camera Kit",
+        "category": "Audiovisual and Photography Equipment",
+        "image": "camera_kit.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Kayak",
+        "category": "Outdoor and Recreational",
+        "image": "kayak.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Wheelchair",
+        "category": "Medical and Healthcare Equipment",
+        "image": "wheelchair.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Tractor",
+        "category": "Farm and Agricultural Tools",
+        "image": "tractor.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Pottery Wheel",
+        "category": "Specialty and Rare Tools",
+        "image": "pottery_wheel.jpg"
+      }
+    ]
+  
