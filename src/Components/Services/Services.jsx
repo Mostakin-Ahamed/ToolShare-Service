@@ -5,7 +5,8 @@ import CategoriesCard from "../Categories/CategoriesCard";
 const Services = () => {
 
     const categories = useLoaderData();
-    console.log(categories);
+    console.log(categories.length);
+
 
     return (
         <div>

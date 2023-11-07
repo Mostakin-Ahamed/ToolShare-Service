@@ -10,7 +10,6 @@ const CategoriesCard = ({ category }) => {
 
     return (
         <div className="bg-inherit flex justify-center">
-
             <div data-aos="fade-left" className="flex justify-center bg-inherit">
                 <div className="card w-96 bg-inherit  h-full ">
                     <div className="h-80">
