@@ -1,93 +1,122 @@
- [
-      {
+[
+    {
         "id": 1,
         "name": "Screwdriver Set",
         "category": "General Tools",
-        "image": "screwdriver.jpg"
-      },
-      {
+        "image": "screwdriver.jpg",
+        "description": "A versatile set of screwdrivers for various household tasks.",
+        "price": 20.99
+    },
+    {
         "id": 2,
         "name": "Circular Saw",
         "category": "General Tools",
-        "image": "circular_saw.jpg"
-      },
-      {
+        "image": "circular_saw.jpg",
+        "description": "Powerful circular saw for precise cutting of wood and other materials.",
+        "price": 49.99
+    },
+    {
         "id": 3,
         "name": "Concrete Mixer",
         "category": "Construction Equipment",
-        "image": "concrete_mixer.jpg"
-      },
-      {
+        "image": "concrete_mixer.jpg",
+        "description": "Ideal for mixing concrete on construction sites.",
+        "price": 45.50
+    },
+    {
         "id": 4,
         "name": "Table Saw",
         "category": "Woodworking Tools",
-        "image": "table_saw.jpg"
-      },
-      {
+        "image": "table_saw.jpg",
+        "description": "A high-quality table saw for precise woodworking projects.",
+        "price": 47.25
+    },
+    {
         "id": 5,
         "name": "Lawn Mower",
         "category": "Gardening and Landscaping",
-        "image": "lawn_mower.jpg"
-      },
-      {
+        "image": "lawn_mower.jpg",
+        "description": "Efficient lawn mower for keeping your lawn well-manicured.",
+        "price": 39.99
+    },
+    {
         "id": 6,
         "name": "Car Jack",
         "category": "Automotive Tools",
-        "image": "car_jack.jpg"
-      },
-      {
+        "image": "car_jack.jpg",
+        "description": "A must-have tool for lifting vehicles during maintenance.",
+        "price": 29.95
+    },
+    {
         "id": 7,
         "name": "Soldering Iron Kit",
         "category": "Electronics and DIY",
-        "image": "soldering_kit.jpg"
-      },
-      {
+        "image": "soldering_kit.jpg",
+        "description": "Complete soldering kit for electronics and DIY projects.",
+        "price": 19.99
+    },
+    {
         "id": 8,
         "name": "Paint Sprayer",
         "category": "Home Improvement",
-        "image": "paint_sprayer.jpg"
-      },
-      {
+        "image": "paint_sprayer.jpg",
+        "description": "Efficient paint sprayer for home improvement and renovation.",
+        "price": 42.75
+    },
+    {
         "id": 9,
         "name": "Camping Tent",
         "category": "Outdoor and Recreational",
-        "image": "camping_tent.jpg"
-      },
-      {
+        "image": "camping_tent.jpg",
+        "description": "Spacious camping tent for outdoor adventures.",
+        "price": 34.50
+    },
+    {
         "id": 10,
         "name": "Bicycle Repair Tools",
         "category": "Outdoor and Recreational",
-        "image": "bike_repair_tools.jpg"
-      },
-      {
+        "image": "bike_repair_tools.jpg",
+        "description": "Essential tools for maintaining and repairing bicycles.",
+        "price": 25.99
+    },
+    {
         "id": 11,
         "name": "Camera Kit",
         "category": "Audiovisual and Photography Equipment",
-        "image": "camera_kit.jpg"
-      },
-      {
+        "image": "camera_kit.jpg",
+        "description": "Comprehensive camera kit for photography and videography.",
+        "price": 48.50
+    },
+    {
         "id": 12,
         "name": "Kayak",
         "category": "Outdoor and Recreational",
-        "image": "kayak.jpg"
-      },
-      {
+        "image": "kayak.jpg",
+        "description": "Sturdy kayak for exploring waterways and enjoying water sports.",
+        "price": 49.99
+    },
+    {
         "id": 13,
         "name": "Wheelchair",
         "category": "Medical and Healthcare Equipment",
-        "image": "wheelchair.jpg"
-      },
-      {
+        "image": "wheelchair.jpg",
+        "description": "A comfortable and convenient wheelchair for mobility.",
+        "price": 39.95
+    },
+    {
         "id": 14,
         "name": "Tractor",
         "category": "Farm and Agricultural Tools",
-        "image": "tractor.jpg"
-      },
-      {
+        "image": "tractor.jpg",
+        "description": "Powerful tractor for farm and agricultural tasks.",
+        "price": 49.99
+    },
+    {
         "id": 15,
         "name": "Pottery Wheel",
         "category": "Specialty and Rare Tools",
-        "image": "pottery_wheel.jpg"
-      }
-    ]
-  
+        "image": "pottery_wheel.jpg",
+        "description": "Professional pottery wheel for crafting unique ceramics.",
+        "price": 44.75
+    }
+]
