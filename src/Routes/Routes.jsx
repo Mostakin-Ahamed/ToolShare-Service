@@ -9,6 +9,7 @@ import PrivateRoute from "./PrivateRoute";
 import AddService from "../Pages/AddService";
 import MySchedules from "../Pages/MySchedules";
 import DetailsPage from "../Pages/DetailsPage";
+import BookItems from "../Pages/BookItems";
 
 
 const router = createBrowserRouter([
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
         {
             path:'/',
             element:<Home></Home>,
-            loader: ()=> fetch('categories.json')
+            loader: ()=> fetch('http://localhost:5000/services')
         },
         {
           path:'/services',
@@ -47,9 +48,13 @@ const router = createBrowserRouter([
           element:<PrivateRoute><MySchedules></MySchedules></PrivateRoute>
         },
         {
-          path:'/:id',
+          path:'/singleService/:id',
           element:<PrivateRoute><DetailsPage></DetailsPage></PrivateRoute> ,
-          loader: ({params})=> fetch(`http://localhost:5000/${params.id}`)
+          loader: ({params})=> fetch(`http://localhost:5000/singleService/${params.id}`)
+        },
+        {
+          path:'/bookItems/:id',
+          element:<PrivateRoute><BookItems></BookItems></PrivateRoute>
         }
 
       ]

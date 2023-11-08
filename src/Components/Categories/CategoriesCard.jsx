@@ -20,7 +20,7 @@ const CategoriesCard = ({ category }) => {
                         <p className="text-center font-medium text-md">{description}</p>
                         <h2 className="text-center font-semibold text-lg">Price: ${price}</h2>
                         <div className=" card-actions justify-center mt-6">
-                            <Link to={`/${_id}`}><button className="btn btn-ghost w-full">See More</button></Link>
+                            <Link to={`/singleService/${_id}`}><button className="btn btn-ghost w-full">See More</button></Link>
                         </div>
                     </div>
                 </div>
