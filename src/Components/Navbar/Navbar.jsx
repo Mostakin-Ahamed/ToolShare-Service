@@ -20,10 +20,8 @@ const Navbar = () => {
 
     return (
         <div>
-            
-
             <div className="bg-inherit w-10/12 mx-auto">
-                <div className="navbar ">
+                <div className="navbar static bottom-0">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -35,14 +33,14 @@ const Navbar = () => {
                                 }
                                 {
                                     user ?
-                                    <li className="">
-                                        <a>Dashboard</a>
-                                        <ul className="p-2">
-                                            <li><a>My Services</a></li>
-                                            <li><a>Add Services</a></li>
-                                            <li><a>My Schedules</a></li>
-                                        </ul>
-                                    </li>:<li><NavLink className="mx-3" to='/login'>Login</NavLink></li>
+                                        <li className="">
+                                            <a>Dashboard</a>
+                                            <ul className="p-2">
+                                                <li><Link to='/myServices'><a>My Services</a></Link></li>
+                                                <li><Link to='/addService'><a>Add Services</a></Link></li>
+                                                <li><Link to='/mySchedules'><a>My Schedules</a></Link></li>
+                                            </ul>
+                                        </li> : <li><NavLink className="mx-3" to='/login'>Login</NavLink></li>
                                 }
 
                             </ul>
@@ -57,16 +55,17 @@ const Navbar = () => {
                             }
                             {
                                 user ?
-                                <li tabIndex={0}>
-                                    <details>
-                                        <summary>Dashboard</summary>
-                                        <ul className="p-2">
-                                            <li><a>My Services</a></li>
-                                            <li><a>Add Services</a></li>
-                                            <li><a>My Schedules</a></li>
-                                        </ul>
-                                    </details>
-                                </li>:<li><NavLink className="mx-3" to='/login'>Login</NavLink></li>
+                                    <li tabIndex={0}>
+                                        <details>
+                                            <summary>Dashboard</summary>
+                                            <ul className="p-2">
+                                                <li><Link to='/myServices'><a>My Services</a></Link></li>
+                                                <li><Link to='/addService'><a>Add Services</a></Link></li>
+                                                <li><Link to='/mySchedules'><a>My Schedules</a></Link></li>
+
+                                            </ul>
+                                        </details>
+                                    </li> : <li><NavLink className="mx-3" to='/login'>Login</NavLink></li>
                             }
 
                         </ul>

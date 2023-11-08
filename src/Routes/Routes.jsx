@@ -4,6 +4,10 @@ import Home from "../Pages/Home";
 import Login from "../Pages/Login";
 import Services from "../Pages/Services";
 import Register from "../Pages/Register";
+import MyServices from "../Pages/MyServices";
+import PrivateRoute from "./PrivateRoute";
+import AddService from "../Pages/AddService";
+import MySchedules from "../Pages/MySchedules";
 
 
 const router = createBrowserRouter([
@@ -28,7 +32,20 @@ const router = createBrowserRouter([
         {
           path:'/register',
           element:<Register></Register>
+        },
+        {
+          path:'/myServices',
+          element: <PrivateRoute><MyServices></MyServices></PrivateRoute>
+        },
+        {
+          path:'/addService',
+          element:<PrivateRoute><AddService></AddService></PrivateRoute>
+        },
+        {
+          path:'/mySchedules',
+          element:<PrivateRoute><MySchedules></MySchedules></PrivateRoute>
         }
+
       ]
 
     },

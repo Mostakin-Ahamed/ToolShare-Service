@@ -6,11 +6,11 @@ const Services = () => {
     const categories = useLoaderData()
 
     return (
-        <div className="w-10/12 border border-black mx-auto">
+        <div className="w-10/12  mx-auto">
             <div className="font-bold text-7xl text-center mb-9 ">
                 <p>All of our products!</p>
             </div>
-            <div className="input-group flex justify-center border py-6  border-red-600 mb-9">
+            <div className="input-group flex justify-center py-6  mb-9">
                 <form action="" className="flex" >
                     <input type="text" name="search" placeholder="Search…" className="input input-bordered w-[400px]" />
                     <button className="btn bg-yellow-200">Search</button>

@@ -9,11 +9,11 @@ const CategoriesCard = ({ category }) => {
     console.log(category);
 
     return (
-        <div className="bg-inherit flex justify-center">
+        <div className="bg-inherit flex justify-center shadow-sm rounded">
             <div data-aos="fade-left" className="flex justify-center bg-inherit">
                 <div className="card w-96 bg-inherit  h-full ">
-                    <div className="h-80">
-                        <img className="object-fit" src={image} alt="Shoes" />
+                    <div className="h-80 flex justify-center">
+                        <img className="object-fit h-80" src={image} alt="Shoes" />
                     </div>
                     <div className="card-body">
                         <h2 className="text-center font-bold text-xl">{name}</h2>
