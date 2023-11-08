@@ -3,7 +3,7 @@
 const BookItems = () => {
     return (
         <div>
-            This is book items page
+            This is my schedules page
         </div>
     );
 };

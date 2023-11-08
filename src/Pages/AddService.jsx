@@ -9,7 +9,7 @@ const AddService = () => {
     console.log(user);
     return (
         <div className="mb-48">
-            <h2 className="text-3xl my-10 text-center">Add a new car!</h2>
+            <h2 className="text-3xl my-10 text-center">Add a new service!</h2>
             <form  className="w-1/2 lg:w-1/2 md:3/4 mx-auto">
                 <div className="form-control">
                     <label className="label">
