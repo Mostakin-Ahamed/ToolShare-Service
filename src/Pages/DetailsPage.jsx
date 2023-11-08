@@ -23,16 +23,14 @@ const DetailsPage = () => {
 
     return (
         <div>
-            <div >
+            <div className="mt-">
                 <div className="flex justify-center bg-inherit lg:w-auto lg:h-auto md:w-auto md:auto w-auto h-auto  mb-10">
-                    <div className="card card-compact md:w-auto md:h-auto lg:w-[1320px]  lg:h-[680px] bg-inherit ">
-                        <figure><img className="object-cover h-full" src={image} alt="Shoes" /></figure>
+                    <div className="card card-compact md:w-auto md:h-auto lg:w-[1520px]  lg:h-[680px] bg-inherit ">
+                        <figure><img className="h-full" src={image} alt="Shoes" /></figure>
                         <h2 className="card-title mb-5">Price: $ {price}</h2>
                         <h2 className="card-title mb-5">Brand Name:{category} </h2>
                         <h2 className="card-title mb-5">Name: {name}</h2>
                         <p className="font-medium text-lg mb-5">Details: {description}</p>
-
-
                         {/* Open the modal using document.getElementById('ID').showModal() method */}
                         <button className="btn btn-warning" onClick={() => document.getElementById('my_modal_5').showModal()}>Book This Service</button>
                         <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">

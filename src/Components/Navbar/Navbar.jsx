@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="bg-inherit w-10/12 mx-auto">
-                <div className="navbar static bottom-0">
+                <div className="navbar ">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
