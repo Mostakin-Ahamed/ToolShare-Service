@@ -4,104 +4,150 @@
         "category": "General Tools",
         "image": "https://i.ibb.co/x5yP54B/9-PCS-INTERCHANGE-AKISD0901.jpg",
         "description": "A versatile set of screwdrivers for various household tasks.",
-        "price": 20.99
+        "price": 20.99,
+        "providerImg": "provider1.jpg",
+        "providerEmail": "provider1@example.com",
+        "serviceArea": "City A"
     },
     {
         "name": "Circular Saw",
         "category": "General Tools",
         "image": "https://i.ibb.co/LNGF44b/circular-saw.jpg",
         "description": "Powerful circular saw for precise cutting of wood and other materials.",
-        "price": 49.99
+        "price": 49.99,
+        "providerImg": "provider2.jpg",
+        "providerEmail": "provider2@example.com",
+        "serviceArea": "City B"
     },
     {
         "name": "Concrete Mixer",
         "category": "Construction Equipment",
         "image": "https://i.ibb.co/F4gp6CV/concrete-mixer.jpg",
         "description": "Ideal for mixing concrete on construction sites.",
-        "price": 45.50
+        "price": 45.50,
+        "providerImg": "provider3.jpg",
+        "providerEmail": "provider3@example.com",
+        "serviceArea": "City C"
     },
     {
         "name": "Table Saw",
         "category": "Woodworking Tools",
         "image": "https://i.ibb.co/rGXq2Tx/table-saw.jpg",
         "description": "A high-quality table saw for precise woodworking projects.",
-        "price": 47.25
+        "price": 47.25,
+        "providerImg": "provider4.jpg",
+        "providerEmail": "provider4@example.com",
+        "serviceArea": "City D"
     },
     {
         "name": "Lawn Mower",
         "category": "Gardening and Landscaping",
         "image": "https://i.ibb.co/L98qTRr/lawn-mower.jpg",
         "description": "Efficient lawn mower for keeping your lawn well-manicured.",
-        "price": 39.99
+        "price": 39.99,
+        "providerImg": "provider5.jpg",
+        "providerEmail": "provider5@example.com",
+        "serviceArea": "City E"
     },
     {
         "name": "Car Jack",
         "category": "Automotive Tools",
         "image": "https://i.ibb.co/ZSv74T7/car-jack.jpg",
         "description": "A must-have tool for lifting vehicles during maintenance.",
-        "price": 29.95
+        "price": 29.95,
+        "providerImg": "provider6.jpg",
+        "providerEmail": "provider6@example.com",
+        "serviceArea": "City F"
     },
     {
         "name": "Soldering Iron Kit",
         "category": "Electronics and DIY",
         "image": "https://i.ibb.co/q7Y6Rks/soldering-iron-kit.jpg",
         "description": "Complete soldering kit for electronics and DIY projects.",
-        "price": 19.99
+        "price": 19.99,
+        "providerImg": "provider7.jpg",
+        "providerEmail": "provider7@example.com",
+        "serviceArea": "City G"
     },
     {
         "name": "Paint Sprayer",
         "category": "Home Improvement",
         "image": "https://i.ibb.co/GF9gDTY/paint-sprayer.jpg",
         "description": "Efficient paint sprayer for home improvement and renovation.",
-        "price": 42.75
+        "price": 42.75,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Camping Tent",
         "category": "Outdoor and Recreational",
         "image": "https://i.ibb.co/TTKbXCh/camping-tent.jpg",
         "description": "Spacious camping tent for outdoor adventures.",
-        "price": 34.50
+        "price": 34.50,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Bicycle Repair Tools",
         "category": "Outdoor and Recreational",
         "image": "https://i.ibb.co/sgpr56X/bicycle-repair-tool.jpg",
         "description": "Essential tools for maintaining and repairing bicycles.",
-        "price": 25.99
+        "price": 25.99,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Camera Kit",
         "category": "Audiovisual and Photography Equipment",
         "image": "https://i.ibb.co/VmCjSDT/camera-kit.jpg",
         "description": "Comprehensive camera kit for photography and videography.",
-        "price": 48.50
+        "price": 48.50,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Kayak",
         "category": "Outdoor and Recreational",
         "image": "https://i.ibb.co/2FwVGFs/kayak.webp",
         "description": "Sturdy kayak for exploring waterways and enjoying water sports.",
-        "price": 49.99
+        "price": 49.99,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Wheelchair",
         "category": "Medical and Healthcare Equipment",
         "image": "https://i.ibb.co/026c6W4/wheel-chair.jpg",
         "description": "A comfortable and convenient wheelchair for mobility.",
-        "price": 39.95
+        "price": 39.95,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Tractor",
         "category": "Farm and Agricultural Tools",
         "image": "https://i.ibb.co/g4HMgnM/tractor.jpg",
         "description": "Powerful tractor for farm and agricultural tasks.",
-        "price": 49.99
+        "price": 49.99,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     },
     {
         "name": "Pottery Wheel",
         "category": "Specialty and Rare Tools",
         "image": "https://i.ibb.co/zfp91SG/pottery-wheel.jpg",
         "description": "Professional pottery wheel for crafting unique ceramics.",
-        "price": 44.75
+        "price": 44.75,
+        "providerImg": "provider11.jpg",
+        "providerEmail": "provider11@example.com",
+        "serviceArea": "City K"
     }
 ]
+  

@@ -14,16 +14,16 @@ const AddService = () => {
         const handleNewService = e => {
             e.preventDefault();
             const form = new FormData(e.currentTarget);
-            const serviceName = form.get('serviceName');
+            const name = form.get('serviceName');
             const providerName = user.displayName;
             const price = form.get('price');
             const providerEmail = user.email;
             const providerImg=user.photoURL;
             const serviceArea=form.get('serviceArea')
-            const photo = form.get('imageURL');
-            const detail = form.get('details');
+            const image = form.get('imageURL');
+            const description = form.get('details');
             
-            const newService = { serviceName,providerName,providerEmail,providerImg,photo,serviceArea,price,detail}
+            const newService = { name,providerName,providerEmail,providerImg,image,serviceArea,price,description}
             console.log(newService);
             formRef.current?.reset();
     

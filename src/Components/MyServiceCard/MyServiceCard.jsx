@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 const MyServiceCard = ({ service }) => {
 
     // eslint-disable-next-line react/prop-types
-    const {_id, serviceName, detail ,serviceArea, price, photo } = service;
+    const {_id, name, description ,serviceArea, price, image } = service;
     const handleDelete = _id =>{
         Swal.fire({
             title: 'Are you sure?',
@@ -42,13 +42,13 @@ const MyServiceCard = ({ service }) => {
         <div>
             <div className="flex items-center justify-center  w-full">
                 <div className="hero w-full">
-                    <div className="hero-content justify-evenly w-2/4 flex-col lg:flex-row">
-                        <img src={photo} className="max-w-sm h-[70px]  rounded-lg shadow-2xl" />
+                    <div className="hero-content justify-around w-3/4 flex lg:flex-row">
+                        <img src={image} className="max-w-sm object-cover h-[200px] rounded-lg shadow-2xl" />
                         <div className="ml-5 w-full">
-                            <h1 className="text-2xl my-2 font-bold">{serviceName}</h1>
-                            <h1 className="text-4xl my-2 font-bold">{serviceArea}</h1>
+                            <h1 className="text-2xl my-2 font-bold">Service Name: {name}</h1>
+                            <h1 className="text-xl my-2 font-semibold">Service Area: {serviceArea}</h1>
                             <p className="text-2xl my-2">Price: ${price}</p>
-                            <p className="text-2xl my-2"> Rating: {detail} /10</p>
+                            <p className="text-2xl my-2"> Detail: {description} </p>
                             {/* <Link to={`/singleCarDetail/${_id}`} params={_id}><button className="btn btn-sm btn-primary m-2">See Details</button></Link> */}
                             <Link to={`/update/${_id}`} params={_id}><button className="btn  m-2 btn-warning">Update</button></Link>
                             <button onClick={()=>handleDelete(_id)} className="btn btn-error">Delete</button>

@@ -6,7 +6,6 @@ import { AuthContext } from "../../Provider/AuthProvider";
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
-    console.log(user);
     const handleSignOut = () => {
         logOut()
             .then()
@@ -20,7 +19,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="bg-inherit w-10/12 mx-auto">
+            <div className="bg-inherit lg:w-10/12 mx-auto">
                 <div className="navbar ">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -45,8 +44,8 @@ const Navbar = () => {
 
                             </ul>
                         </div>
-                        <img className="h-[35px] ml-3" src="/logo.svg" alt="" />
-                        <Link to="/"><a className="btn btn-ghost normal-case text-xl">ToolShare</a></Link>
+                        <div className="lg:flex md:flex"><img className="h-[35px] ml-3" src="/logo.svg" alt="" />
+                        <Link to="/"><a className="btn btn-ghost normal-case text-xl">ToolShare</a></Link></div>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">

@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <footer className="footer p-10 bg-neutral text-neutral-content">
                 <div className="ml-40 mt-6">
-                    <img className="h-[50px] ml-9" src="../../../public/logo.svg" alt="" />
+                    <img className="h-[50px] ml-9" src="/logo.svg" alt="" />
                     <a className="btn btn-ghost normal-case text-xl">ToolShare</a>
                 </div>
 
