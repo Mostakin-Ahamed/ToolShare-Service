@@ -27,7 +27,7 @@ const AddService = () => {
             console.log(newService);
             formRef.current?.reset();
     
-            fetch('http://localhost:5000/addService',{
+            fetch('https://tool-share-server.vercel.app/addService',{
                 method: 'POST',
                 headers:{
                     'content-type': 'application/json'

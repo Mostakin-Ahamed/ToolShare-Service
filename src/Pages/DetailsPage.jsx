@@ -29,7 +29,7 @@ const DetailsPage = () => {
          userEmail, name, image,serviceArea, price, date, instructions, description, providerEmail
         }
         console.log(bookedService);
-        fetch('http://localhost:5000/bookItems',{
+        fetch('https://tool-share-server.vercel.app/bookItems',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'

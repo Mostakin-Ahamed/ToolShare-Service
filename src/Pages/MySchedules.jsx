@@ -7,7 +7,7 @@ const MySchedules = () => {
 
     const { user } = useContext(AuthContext);
     const [schedules, setSchedules]= useState([]);
-    const url = `http://localhost:5000/mySchedules?email=${user?.email}`;
+    const url = `https://tool-share-server.vercel.app/mySchedules?email=${user?.email}`;
     useEffect(() => {
         fetch(url)
             .then(res => res.json())
@@ -27,9 +27,9 @@ const MySchedules = () => {
                                     <input type="checkbox" className="checkbox" />
                                 </label>
                             </th>
-                            <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Service Name and Area</th>
+                            <th>Instructions an Price</th>
+                            <th>Service Date</th>
                             <th></th>
                         </tr>
                     </thead>

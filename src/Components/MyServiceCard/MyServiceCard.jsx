@@ -20,7 +20,7 @@ const MyServiceCard = ({ service }) => {
           }).then((result) => {
             if (result.isConfirmed) {
              
-              fetch(`http://localhost:5000/myServices/${_id}`,{
+              fetch(`https://tool-share-server.vercel.app/myServices/${_id}`,{
                 method:'DELETE'
               })
               .then(res =>res.json())
